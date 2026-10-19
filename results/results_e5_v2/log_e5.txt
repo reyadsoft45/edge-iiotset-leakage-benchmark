@@ -1,0 +1,162 @@
+[B] rows 157800 -> 152196 after dedup (5604 duplicates removed); 1134 rows share features with a different label (kept)
+[audit train-only] max single-column balanced acc = 0.8147; flagged (not dropped): []
+[E5 tune] B   binary     seed=0 depth=6 balanced=False val macroF1=0.9526 trees=154
+[E5 tune] B   binary     seed=0 depth=6 balanced=True val macroF1=0.9125 trees=566
+[E5 tune] B   binary     seed=0 depth=10 balanced=False val macroF1=0.9527 trees=81
+[E5 tune] B   binary     seed=0 depth=10 balanced=True val macroF1=0.9174 trees=254
+[E5 tune] B   binary     seed=0 depth=14 balanced=False val macroF1=0.9524 trees=76
+[E5 tune] B   binary     seed=0 depth=14 balanced=True val macroF1=0.9181 trees=179
+[E5 best] B   binary     seed=0 {'max_depth': 10, 'balanced': False, 'n_estimators': 81, 'val_macro_f1': 0.9527274807490577}
+[E5] B   binary     XGB-tuned seed=0 acc=0.9749 macroF1=0.9497 size=283KB
+[E5 tune] B   binary     seed=1 depth=6 balanced=False val macroF1=0.9529 trees=106
+[E5 tune] B   binary     seed=1 depth=6 balanced=True val macroF1=0.9096 trees=423
+[E5 tune] B   binary     seed=1 depth=10 balanced=False val macroF1=0.9529 trees=85
+[E5 tune] B   binary     seed=1 depth=10 balanced=True val macroF1=0.9132 trees=214
+[E5 tune] B   binary     seed=1 depth=14 balanced=False val macroF1=0.9521 trees=80
+[E5 tune] B   binary     seed=1 depth=14 balanced=True val macroF1=0.9141 trees=156
+[E5 best] B   binary     seed=1 {'max_depth': 6, 'balanced': False, 'n_estimators': 106, 'val_macro_f1': 0.9528879111425823}
+[E5] B   binary     XGB-tuned seed=1 acc=0.9752 macroF1=0.9503 size=211KB
+[E5 tune] B   binary     seed=2 depth=6 balanced=False val macroF1=0.9479 trees=100
+[E5 tune] B   binary     seed=2 depth=6 balanced=True val macroF1=0.9143 trees=284
+[E5 tune] B   binary     seed=2 depth=10 balanced=False val macroF1=0.9482 trees=75
+[E5 tune] B   binary     seed=2 depth=10 balanced=True val macroF1=0.9147 trees=181
+[E5 tune] B   binary     seed=2 depth=14 balanced=False val macroF1=0.9477 trees=77
+[E5 tune] B   binary     seed=2 depth=14 balanced=True val macroF1=0.9118 trees=139
+[E5 best] B   binary     seed=2 {'max_depth': 10, 'balanced': False, 'n_estimators': 75, 'val_macro_f1': 0.9481738622884981}
+[E5] B   binary     XGB-tuned seed=2 acc=0.9756 macroF1=0.9513 size=249KB
+[E5 tune] B   6-class    seed=0 depth=6 balanced=False val macroF1=0.9226 trees=197
+[E5 tune] B   6-class    seed=0 depth=6 balanced=True val macroF1=0.9219 trees=211
+[E5 tune] B   6-class    seed=0 depth=10 balanced=False val macroF1=0.9230 trees=86
+[E5 tune] B   6-class    seed=0 depth=10 balanced=True val macroF1=0.9218 trees=104
+[E5 tune] B   6-class    seed=0 depth=14 balanced=False val macroF1=0.9216 trees=81
+[E5 tune] B   6-class    seed=0 depth=14 balanced=True val macroF1=0.9203 trees=85
+[E5 best] B   6-class    seed=0 {'max_depth': 10, 'balanced': False, 'n_estimators': 86, 'val_macro_f1': 0.9230049326226455}
+[E5] B   6-class    XGB-tuned seed=0 acc=0.9086 macroF1=0.9250 size=2474KB
+[E5 tune] B   6-class    seed=1 depth=6 balanced=False val macroF1=0.9256 trees=215
+[E5 tune] B   6-class    seed=1 depth=6 balanced=True val macroF1=0.9201 trees=212
+[E5 tune] B   6-class    seed=1 depth=10 balanced=False val macroF1=0.9260 trees=90
+[E5 tune] B   6-class    seed=1 depth=10 balanced=True val macroF1=0.9210 trees=101
+[E5 tune] B   6-class    seed=1 depth=14 balanced=False val macroF1=0.9241 trees=78
+[E5 tune] B   6-class    seed=1 depth=14 balanced=True val macroF1=0.9191 trees=84
+[E5 best] B   6-class    seed=1 {'max_depth': 10, 'balanced': False, 'n_estimators': 90, 'val_macro_f1': 0.9259781750630176}
+[E5] B   6-class    XGB-tuned seed=1 acc=0.9108 macroF1=0.9262 size=2749KB
+[E5 tune] B   6-class    seed=2 depth=6 balanced=False val macroF1=0.9250 trees=210
+[E5 tune] B   6-class    seed=2 depth=6 balanced=True val macroF1=0.9194 trees=223
+[E5 tune] B   6-class    seed=2 depth=10 balanced=False val macroF1=0.9249 trees=89
+[E5 tune] B   6-class    seed=2 depth=10 balanced=True val macroF1=0.9199 trees=102
+[E5 tune] B   6-class    seed=2 depth=14 balanced=False val macroF1=0.9230 trees=78
+[E5 tune] B   6-class    seed=2 depth=14 balanced=True val macroF1=0.9176 trees=87
+[E5 best] B   6-class    seed=2 {'max_depth': 6, 'balanced': False, 'n_estimators': 210, 'val_macro_f1': 0.924974475996347}
+[E5] B   6-class    XGB-tuned seed=2 acc=0.9108 macroF1=0.9263 size=2889KB
+[E5 tune] B   15-class   seed=0 depth=6 balanced=False val macroF1=0.8915 trees=139
+[E5 tune] B   15-class   seed=0 depth=6 balanced=True val macroF1=0.8610 trees=150
+[E5 tune] B   15-class   seed=0 depth=10 balanced=False val macroF1=0.8911 trees=90
+[E5 tune] B   15-class   seed=0 depth=10 balanced=True val macroF1=0.8564 trees=99
+[E5 tune] B   15-class   seed=0 depth=14 balanced=False val macroF1=0.8888 trees=77
+[E5 tune] B   15-class   seed=0 depth=14 balanced=True val macroF1=0.8519 trees=80
+[E5 best] B   15-class   seed=0 {'max_depth': 6, 'balanced': False, 'n_estimators': 139, 'val_macro_f1': 0.8915215024094287}
+[E5] B   15-class   XGB-tuned seed=0 acc=0.8860 macroF1=0.8889 size=3993KB
+[E5 tune] B   15-class   seed=1 depth=6 balanced=False val macroF1=0.8926 trees=134
+[E5 tune] B   15-class   seed=1 depth=6 balanced=True val macroF1=0.8522 trees=155
+[E5 tune] B   15-class   seed=1 depth=10 balanced=False val macroF1=0.8913 trees=87
+[E5 tune] B   15-class   seed=1 depth=10 balanced=True val macroF1=0.8515 trees=91
+[E5 tune] B   15-class   seed=1 depth=14 balanced=False val macroF1=0.8873 trees=77
+[E5 tune] B   15-class   seed=1 depth=14 balanced=True val macroF1=0.8477 trees=78
+[E5 best] B   15-class   seed=1 {'max_depth': 6, 'balanced': False, 'n_estimators': 134, 'val_macro_f1': 0.892554860250542}
+[E5] B   15-class   XGB-tuned seed=1 acc=0.8896 macroF1=0.8923 size=3905KB
+[E5 tune] B   15-class   seed=2 depth=6 balanced=False val macroF1=0.8929 trees=140
+[E5 tune] B   15-class   seed=2 depth=6 balanced=True val macroF1=0.8566 trees=142
+[E5 tune] B   15-class   seed=2 depth=10 balanced=False val macroF1=0.8919 trees=85
+[E5 tune] B   15-class   seed=2 depth=10 balanced=True val macroF1=0.8530 trees=95
+[E5 tune] B   15-class   seed=2 depth=14 balanced=False val macroF1=0.8881 trees=80
+[E5 tune] B   15-class   seed=2 depth=14 balanced=True val macroF1=0.8489 trees=82
+[E5 best] B   15-class   seed=2 {'max_depth': 6, 'balanced': False, 'n_estimators': 140, 'val_macro_f1': 0.8929127928851462}
+[E5] B   15-class   XGB-tuned seed=2 acc=0.8925 macroF1=0.8968 size=4060KB
+[E5 tune] C1  binary     seed=0 depth=6 balanced=False val macroF1=0.9527 trees=171
+[E5 tune] C1  binary     seed=0 depth=6 balanced=True val macroF1=0.9087 trees=134
+[E5 tune] C1  binary     seed=0 depth=10 balanced=False val macroF1=0.9527 trees=134
+[E5 tune] C1  binary     seed=0 depth=10 balanced=True val macroF1=0.9087 trees=134
+[E5 tune] C1  binary     seed=0 depth=14 balanced=False val macroF1=0.9527 trees=135
+[E5 tune] C1  binary     seed=0 depth=14 balanced=True val macroF1=0.9087 trees=134
+[E5 best] C1  binary     seed=0 {'max_depth': 6, 'balanced': False, 'n_estimators': 171, 'val_macro_f1': 0.9527274807490577}
+[E5] C1  binary     XGB-tuned seed=0 acc=0.9750 macroF1=0.9499 size=270KB
+[E5 tune] C1  binary     seed=1 depth=6 balanced=False val macroF1=0.9529 trees=223
+[E5 tune] C1  binary     seed=1 depth=6 balanced=True val macroF1=0.9117 trees=155
+[E5 tune] C1  binary     seed=1 depth=10 balanced=False val macroF1=0.9529 trees=155
+[E5 tune] C1  binary     seed=1 depth=10 balanced=True val macroF1=0.9117 trees=114
+[E5 tune] C1  binary     seed=1 depth=14 balanced=False val macroF1=0.9529 trees=155
+[E5 tune] C1  binary     seed=1 depth=14 balanced=True val macroF1=0.9117 trees=114
+[E5 best] C1  binary     seed=1 {'max_depth': 6, 'balanced': False, 'n_estimators': 223, 'val_macro_f1': 0.9528879111425823}
+[E5] C1  binary     XGB-tuned seed=1 acc=0.9752 macroF1=0.9503 size=333KB
+[E5 tune] C1  binary     seed=2 depth=6 balanced=False val macroF1=0.9482 trees=278
+[E5 tune] C1  binary     seed=2 depth=6 balanced=True val macroF1=0.9121 trees=181
+[E5 tune] C1  binary     seed=2 depth=10 balanced=False val macroF1=0.9481 trees=148
+[E5 tune] C1  binary     seed=2 depth=10 balanced=True val macroF1=0.9122 trees=97
+[E5 tune] C1  binary     seed=2 depth=14 balanced=False val macroF1=0.9481 trees=146
+[E5 tune] C1  binary     seed=2 depth=14 balanced=True val macroF1=0.9122 trees=97
+[E5 best] C1  binary     seed=2 {'max_depth': 6, 'balanced': False, 'n_estimators': 278, 'val_macro_f1': 0.9481738622884981}
+[E5] C1  binary     XGB-tuned seed=2 acc=0.9756 macroF1=0.9513 size=411KB
+[E5 tune] C1  6-class    seed=0 depth=6 balanced=False val macroF1=0.9148 trees=360
+[E5 tune] C1  6-class    seed=0 depth=6 balanced=True val macroF1=0.9143 trees=495
+[E5 tune] C1  6-class    seed=0 depth=10 balanced=False val macroF1=0.9145 trees=270
+[E5 tune] C1  6-class    seed=0 depth=10 balanced=True val macroF1=0.9144 trees=228
+[E5 tune] C1  6-class    seed=0 depth=14 balanced=False val macroF1=0.9147 trees=198
+[E5 tune] C1  6-class    seed=0 depth=14 balanced=True val macroF1=0.9145 trees=177
+[E5 best] C1  6-class    seed=0 {'max_depth': 6, 'balanced': False, 'n_estimators': 360, 'val_macro_f1': 0.9148240239191802}
+[E5] C1  6-class    XGB-tuned seed=0 acc=0.9016 macroF1=0.9171 size=3823KB
+[E5 tune] C1  6-class    seed=1 depth=6 balanced=False val macroF1=0.9180 trees=440
+[E5 tune] C1  6-class    seed=1 depth=6 balanced=True val macroF1=0.9178 trees=277
+[E5 tune] C1  6-class    seed=1 depth=10 balanced=False val macroF1=0.9181 trees=204
+[E5 tune] C1  6-class    seed=1 depth=10 balanced=True val macroF1=0.9181 trees=168
+[E5 tune] C1  6-class    seed=1 depth=14 balanced=False val macroF1=0.9181 trees=156
+[E5 tune] C1  6-class    seed=1 depth=14 balanced=True val macroF1=0.9179 trees=168
+[E5 best] C1  6-class    seed=1 {'max_depth': 10, 'balanced': False, 'n_estimators': 204, 'val_macro_f1': 0.9180934059105673}
+[E5] C1  6-class    XGB-tuned seed=1 acc=0.9019 macroF1=0.9168 size=3800KB
+[E5 tune] C1  6-class    seed=2 depth=6 balanced=False val macroF1=0.9156 trees=287
+[E5 tune] C1  6-class    seed=2 depth=6 balanced=True val macroF1=0.9146 trees=299
+[E5 tune] C1  6-class    seed=2 depth=10 balanced=False val macroF1=0.9156 trees=138
+[E5 tune] C1  6-class    seed=2 depth=10 balanced=True val macroF1=0.9147 trees=141
+[E5 tune] C1  6-class    seed=2 depth=14 balanced=False val macroF1=0.9154 trees=123
+[E5 tune] C1  6-class    seed=2 depth=14 balanced=True val macroF1=0.9145 trees=139
+[E5 best] C1  6-class    seed=2 {'max_depth': 6, 'balanced': False, 'n_estimators': 287, 'val_macro_f1': 0.9155974651101549}
+[E5] C1  6-class    XGB-tuned seed=2 acc=0.9027 macroF1=0.9175 size=3085KB
+[E5 tune] C1  15-class   seed=0 depth=6 balanced=False val macroF1=0.8381 trees=262
+[E5 tune] C1  15-class   seed=0 depth=6 balanced=True val macroF1=0.8306 trees=241
+[E5 tune] C1  15-class   seed=0 depth=10 balanced=False val macroF1=0.8383 trees=155
+[E5 tune] C1  15-class   seed=0 depth=10 balanced=True val macroF1=0.8306 trees=179
+[E5 tune] C1  15-class   seed=0 depth=14 balanced=False val macroF1=0.8382 trees=137
+[E5 tune] C1  15-class   seed=0 depth=14 balanced=True val macroF1=0.8308 trees=134
+[E5 best] C1  15-class   seed=0 {'max_depth': 10, 'balanced': False, 'n_estimators': 155, 'val_macro_f1': 0.8382739468964021}
+[E5] C1  15-class   XGB-tuned seed=0 acc=0.8585 macroF1=0.8293 size=5368KB
+[E5 tune] C1  15-class   seed=1 depth=6 balanced=False val macroF1=0.8343 trees=319
+[E5 tune] C1  15-class   seed=1 depth=6 balanced=True val macroF1=0.8257 trees=263
+[E5 tune] C1  15-class   seed=1 depth=10 balanced=False val macroF1=0.8338 trees=166
+[E5 tune] C1  15-class   seed=1 depth=10 balanced=True val macroF1=0.8254 trees=132
+[E5 tune] C1  15-class   seed=1 depth=14 balanced=False val macroF1=0.8340 trees=158
+[E5 tune] C1  15-class   seed=1 depth=14 balanced=True val macroF1=0.8254 trees=132
+[E5 best] C1  15-class   seed=1 {'max_depth': 6, 'balanced': False, 'n_estimators': 319, 'val_macro_f1': 0.8343252718634491}
+[E5] C1  15-class   XGB-tuned seed=1 acc=0.8622 macroF1=0.8288 size=7106KB
+[E5 tune] C1  15-class   seed=2 depth=6 balanced=False val macroF1=0.8314 trees=258
+[E5 tune] C1  15-class   seed=2 depth=6 balanced=True val macroF1=0.8227 trees=218
+[E5 tune] C1  15-class   seed=2 depth=10 balanced=False val macroF1=0.8308 trees=153
+[E5 tune] C1  15-class   seed=2 depth=10 balanced=True val macroF1=0.8227 trees=145
+[E5 tune] C1  15-class   seed=2 depth=14 balanced=False val macroF1=0.8308 trees=137
+[E5 tune] C1  15-class   seed=2 depth=14 balanced=True val macroF1=0.8227 trees=145
+[E5 best] C1  15-class   seed=2 {'max_depth': 6, 'balanced': False, 'n_estimators': 258, 'val_macro_f1': 0.8313898321516446}
+[E5] C1  15-class   XGB-tuned seed=2 acc=0.8663 macroF1=0.8388 size=5837KB
+Summary (mean over seeds):
+                             accuracy  macro_f1
+protocol task     model                        
+B        15-class DT           0.8021    0.7474
+                  XGB-tuned    0.8894    0.8927
+         6-class  DT           0.9031    0.9207
+                  XGB-tuned    0.9101    0.9258
+         binary   DT           0.9749    0.9498
+                  XGB-tuned    0.9752    0.9504
+C1       15-class DT           0.8196    0.7961
+                  XGB-tuned    0.8623    0.8323
+         6-class  DT           0.8945    0.9114
+                  XGB-tuned    0.9021    0.9171
+         binary   DT           0.9756    0.9510
+                  XGB-tuned    0.9753    0.9505
+Done. Results in results_e5_v2

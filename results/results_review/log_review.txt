@@ -1,0 +1,105 @@
+[B] rows 157800 -> 152196 after dedup (5604 duplicates removed); 1134 rows share features with a different label (kept)
+[E7] A* single-column audit (top 6):
+source_column  n_features  single_column_balanced_acc
+      tcp.seq           1                    0.811383
+      tcp.ack           1                    0.763526
+      tcp.len           1                    0.645389
+mqtt.hdrflags           1                    0.605878
+ mqtt.msgtype           1                    0.605878
+     mqtt.len           1                    0.578980
+[E7] A: 152196 rows x 74 features
+[E7] A  binary   DT  seed=0 acc=1.0000 macroF1=1.0000
+[E7] A  binary   XGB seed=0 acc=1.0000 macroF1=1.0000
+[E7] A  binary   DT  seed=1 acc=1.0000 macroF1=1.0000
+[E7] A  binary   XGB seed=1 acc=1.0000 macroF1=1.0000
+[E7] A  binary   DT  seed=2 acc=1.0000 macroF1=1.0000
+[E7] A  binary   XGB seed=2 acc=1.0000 macroF1=1.0000
+[E7] A  binary   DT  seed=3 acc=1.0000 macroF1=1.0000
+[E7] A  binary   XGB seed=3 acc=1.0000 macroF1=1.0000
+[E7] A  binary   DT  seed=4 acc=1.0000 macroF1=1.0000
+[E7] A  binary   XGB seed=4 acc=1.0000 macroF1=1.0000
+[E7] A  15-class DT  seed=0 acc=0.9385 macroF1=0.9252
+[E7] A  15-class XGB seed=0 acc=0.9463 macroF1=0.9336
+[E7] A  15-class DT  seed=1 acc=0.9420 macroF1=0.9292
+[E7] A  15-class XGB seed=1 acc=0.9491 macroF1=0.9362
+[E7] A  15-class DT  seed=2 acc=0.9416 macroF1=0.9314
+[E7] A  15-class XGB seed=2 acc=0.9491 macroF1=0.9380
+[E7] A  15-class DT  seed=3 acc=0.9419 macroF1=0.9283
+[E7] A  15-class XGB seed=3 acc=0.9494 macroF1=0.9356
+[E7] A  15-class DT  seed=4 acc=0.9408 macroF1=0.9293
+[E7] A  15-class XGB seed=4 acc=0.9481 macroF1=0.9370
+[E7] A*: 152196 rows x 67 features
+[E7] A* binary   DT  seed=0 acc=0.9748 macroF1=0.9496
+[E7] A* binary   XGB seed=0 acc=0.9748 macroF1=0.9495
+[E7] A* binary   DT  seed=1 acc=0.9749 macroF1=0.9499
+[E7] A* binary   XGB seed=1 acc=0.9750 macroF1=0.9499
+[E7] A* binary   DT  seed=2 acc=0.9749 macroF1=0.9501
+[E7] A* binary   XGB seed=2 acc=0.9753 macroF1=0.9507
+[E7] A* binary   DT  seed=3 acc=0.9742 macroF1=0.9484
+[E7] A* binary   XGB seed=3 acc=0.9746 macroF1=0.9492
+[E7] A* binary   DT  seed=4 acc=0.9741 macroF1=0.9483
+[E7] A* binary   XGB seed=4 acc=0.9745 macroF1=0.9489
+[E7] A* 15-class DT  seed=0 acc=0.7986 macroF1=0.7436
+[E7] A* 15-class XGB seed=0 acc=0.8856 macroF1=0.8882
+[E7] A* 15-class DT  seed=1 acc=0.8025 macroF1=0.7472
+[E7] A* 15-class XGB seed=1 acc=0.8892 macroF1=0.8913
+[E7] A* 15-class DT  seed=2 acc=0.8051 macroF1=0.7515
+[E7] A* 15-class XGB seed=2 acc=0.8911 macroF1=0.8950
+[E7] A* 15-class DT  seed=3 acc=0.8024 macroF1=0.7462
+[E7] A* 15-class XGB seed=3 acc=0.8903 macroF1=0.8916
+[E7] A* 15-class DT  seed=4 acc=0.8032 macroF1=0.7494
+[E7] A* 15-class XGB seed=4 acc=0.8906 macroF1=0.8938
+[E7] B: 152196 rows x 63 features
+[E7] B  binary   DT  seed=0 acc=0.9748 macroF1=0.9496
+[E7] B  binary   XGB seed=0 acc=0.9748 macroF1=0.9495
+[E7] B  binary   DT  seed=1 acc=0.9749 macroF1=0.9498
+[E7] B  binary   XGB seed=1 acc=0.9750 macroF1=0.9499
+[E7] B  binary   DT  seed=2 acc=0.9749 macroF1=0.9500
+[E7] B  binary   XGB seed=2 acc=0.9754 macroF1=0.9508
+[E7] B  binary   DT  seed=3 acc=0.9742 macroF1=0.9484
+[E7] B  binary   XGB seed=3 acc=0.9746 macroF1=0.9492
+[E7] B  binary   DT  seed=4 acc=0.9741 macroF1=0.9483
+[E7] B  binary   XGB seed=4 acc=0.9745 macroF1=0.9489
+[E7] B  15-class DT  seed=0 acc=0.7986 macroF1=0.7436
+[E7] B  15-class XGB seed=0 acc=0.8854 macroF1=0.8880
+[E7] B  15-class DT  seed=1 acc=0.8026 macroF1=0.7473
+[E7] B  15-class XGB seed=1 acc=0.8894 macroF1=0.8915
+[E7] B  15-class DT  seed=2 acc=0.8051 macroF1=0.7515
+[E7] B  15-class XGB seed=2 acc=0.8915 macroF1=0.8954
+[E7] B  15-class DT  seed=3 acc=0.8024 macroF1=0.7462
+[E7] B  15-class XGB seed=3 acc=0.8908 macroF1=0.8921
+[E7] B  15-class DT  seed=4 acc=0.8032 macroF1=0.7494
+[E7] B  15-class XGB seed=4 acc=0.8906 macroF1=0.8939
+E7 summary:
+                        accuracy         macro_f1        
+                            mean     std     mean     std
+task     model protocol                                  
+15-class DT    A          0.9410  0.0014   0.9287  0.0022
+               A*         0.8024  0.0024   0.7476  0.0030
+               B          0.8024  0.0023   0.7476  0.0030
+         XGB   A          0.9484  0.0013   0.9361  0.0016
+               A*         0.8894  0.0022   0.8920  0.0026
+               B          0.8895  0.0024   0.8922  0.0028
+binary   DT    A          1.0000  0.0000   1.0000  0.0000
+               A*         0.9746  0.0004   0.9493  0.0008
+               B          0.9746  0.0004   0.9492  0.0008
+         XGB   A          1.0000  0.0000   1.0000  0.0000
+               A*         0.9748  0.0003   0.9496  0.0007
+               B          0.9748  0.0004   0.9497  0.0008
+[B] rows 157800 -> 152196 after dedup (5604 duplicates removed); 1134 rows share features with a different label (kept)
+[E8] features=B seed=0 n_features=63 n_test=30440 pct_test_shared=0.5552 pct_test_ambiguous=0.0460 lookup_acc_on_shared=0.0000 xgb_acc_all=0.8854 xgb_macro_f1_all=0.8880 xgb_acc_shared=0.2544 xgb_acc_unshared=0.8890 xgb_macro_f1_unshared=0.8912
+[E8] features=B seed=1 n_features=63 n_test=30440 pct_test_shared=0.5913 pct_test_ambiguous=0.0394 lookup_acc_on_shared=0.0000 xgb_acc_all=0.8894 xgb_macro_f1_all=0.8915 xgb_acc_shared=0.2667 xgb_acc_unshared=0.8931 xgb_macro_f1_unshared=0.8945
+[E8] features=B seed=2 n_features=63 n_test=30440 pct_test_shared=0.5552 pct_test_ambiguous=0.0263 lookup_acc_on_shared=0.0000 xgb_acc_all=0.8915 xgb_macro_f1_all=0.8954 xgb_acc_shared=0.2130 xgb_acc_unshared=0.8953 xgb_macro_f1_unshared=0.8988
+[E8] features=C1 seed=0 n_features=59 n_test=30440 pct_test_shared=63.1209 pct_test_ambiguous=29.2773 lookup_acc_on_shared=0.8073 xgb_acc_all=0.8588 xgb_macro_f1_all=0.8296 xgb_acc_shared=0.8067 xgb_acc_unshared=0.9481 xgb_macro_f1_unshared=0.8812
+[E8] features=C1 seed=1 n_features=59 n_test=30440 pct_test_shared=62.7825 pct_test_ambiguous=29.1163 lookup_acc_on_shared=0.8128 xgb_acc_all=0.8618 xgb_macro_f1_all=0.8283 xgb_acc_shared=0.8113 xgb_acc_unshared=0.9469 xgb_macro_f1_unshared=0.8266
+[E8] features=C1 seed=2 n_features=59 n_test=30440 pct_test_shared=62.9961 pct_test_ambiguous=28.5414 lookup_acc_on_shared=0.8193 xgb_acc_all=0.8664 xgb_macro_f1_all=0.8390 xgb_acc_shared=0.8179 xgb_acc_unshared=0.9490 xgb_macro_f1_unshared=0.8113
+[E8] features=C2 seed=0 n_features=56 n_test=30440 pct_test_shared=98.6761 pct_test_ambiguous=78.8108 lookup_acc_on_shared=0.5167 xgb_acc_all=0.5201 xgb_macro_f1_all=0.4866 xgb_acc_shared=0.5154 xgb_acc_unshared=0.8685 xgb_macro_f1_unshared=0.5645
+[E8] features=C2 seed=1 n_features=56 n_test=30440 pct_test_shared=98.6038 pct_test_ambiguous=78.9717 lookup_acc_on_shared=0.5177 xgb_acc_all=0.5209 xgb_macro_f1_all=0.4773 xgb_acc_shared=0.5156 xgb_acc_unshared=0.8965 xgb_macro_f1_unshared=0.6650
+[E8] features=C2 seed=2 n_features=56 n_test=30440 pct_test_shared=98.5447 pct_test_ambiguous=78.5907 lookup_acc_on_shared=0.5162 xgb_acc_all=0.5202 xgb_macro_f1_all=0.4777 xgb_acc_shared=0.5148 xgb_acc_unshared=0.8894 xgb_macro_f1_unshared=0.5715
+E8 summary:
+          seed  n_features   n_test  pct_test_shared  pct_test_ambiguous  lookup_acc_on_shared  xgb_acc_all  xgb_macro_f1_all  xgb_acc_shared  xgb_acc_unshared  xgb_macro_f1_unshared
+features                                                                                                                                                                              
+B          1.0        63.0  30440.0           0.5672              0.0372                0.0000       0.8888            0.8917          0.2447            0.8924                 0.8949
+C1         1.0        59.0  30440.0          62.9665             28.9783                0.8131       0.8623            0.8323          0.8120            0.9480                 0.8397
+C2         1.0        56.0  30440.0          98.6082             78.7911                0.5169       0.5204            0.4805          0.5153            0.8848                 0.6004
+Done. Results in results_review

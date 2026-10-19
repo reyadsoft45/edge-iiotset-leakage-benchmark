@@ -1,0 +1,20 @@
+{
+ "folds": 5,
+ "n_groups": 76383,
+ "packets_by_rule": {
+  "tcp": 119503,
+  "singleton": 17553,
+  "other-ip": 15083,
+  "udp": 38,
+  "arp": 19
+ },
+ "pct_no_ip": 11.533154616415676,
+ "largest_flow_pct": 3.9179741911745376,
+ "C1_drop": [
+  "tcp.checksum",
+  "icmp.checksum",
+  "udp.stream",
+  "tcp.ack_raw",
+  "mbtcp.trans_id"
+ ]
+}

@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.csv.gz
+ML-EdgeIIoT-dataset.csv
+results_quick/

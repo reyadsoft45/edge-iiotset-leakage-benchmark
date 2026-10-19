@@ -1,0 +1,116 @@
+[B] rows 157800 -> 152196 after dedup (5604 duplicates removed); 1134 rows share features with a different label (kept)
+[E4] protocol B: 63 features
+[E4] protocol C1: 59 features
+[E4] protocol C2: 56 features
+[E4] B   binary     DT   seed=0 macroF1=0.9496 size=18.8KB lat=120us
+[E4] B   binary     RF   seed=0 macroF1=0.9505 size=641.6KB lat=3871us
+[E4] B   binary     XGB  seed=0 macroF1=0.9495 size=195.0KB lat=576us
+[E4] B   binary     DT   seed=1 macroF1=0.9498 size=18.8KB lat=119us
+[E4] B   binary     RF   seed=1 macroF1=0.9501 size=627.2KB lat=3928us
+[E4] B   binary     XGB  seed=1 macroF1=0.9499 size=200.2KB lat=562us
+[E4] B   binary     DT   seed=2 macroF1=0.9500 size=20.4KB lat=120us
+[E4] B   binary     RF   seed=2 macroF1=0.9517 size=708.5KB lat=3886us
+[E4] B   binary     XGB  seed=2 macroF1=0.9508 size=198.5KB lat=560us
+[E4] B   binary     DT   seed=3 macroF1=0.9484 size=19.6KB lat=120us
+[E4] B   binary     RF   seed=3 macroF1=0.9492 size=605.0KB lat=3911us
+[E4] B   binary     XGB  seed=3 macroF1=0.9492 size=206.2KB lat=584us
+[E4] B   binary     DT   seed=4 macroF1=0.9483 size=17.7KB lat=120us
+[E4] B   binary     RF   seed=4 macroF1=0.9494 size=620.6KB lat=3943us
+[E4] B   binary     XGB  seed=4 macroF1=0.9489 size=201.4KB lat=581us
+[E4] B   multiclass DT   seed=0 macroF1=0.7436 size=34.8KB lat=121us
+[E4] B   multiclass RF   seed=0 macroF1=0.8488 size=4503.2KB lat=4021us
+[E4] B   multiclass XGB  seed=0 macroF1=0.8880 size=2862.5KB lat=780us
+[E4] B   multiclass DT   seed=1 macroF1=0.7473 size=33.0KB lat=119us
+[E4] B   multiclass RF   seed=1 macroF1=0.8584 size=4736.8KB lat=3891us
+[E4] B   multiclass XGB  seed=1 macroF1=0.8915 size=2841.2KB lat=795us
+[E4] B   multiclass DT   seed=2 macroF1=0.7515 size=34.8KB lat=121us
+[E4] B   multiclass RF   seed=2 macroF1=0.8652 size=4395.7KB lat=3879us
+[E4] B   multiclass XGB  seed=2 macroF1=0.8954 size=2866.2KB lat=779us
+[E4] B   multiclass DT   seed=3 macroF1=0.7462 size=33.3KB lat=120us
+[E4] B   multiclass RF   seed=3 macroF1=0.8623 size=4649.8KB lat=3882us
+[E4] B   multiclass XGB  seed=3 macroF1=0.8921 size=2875.2KB lat=773us
+[E4] B   multiclass DT   seed=4 macroF1=0.7494 size=34.8KB lat=120us
+[E4] B   multiclass RF   seed=4 macroF1=0.8622 size=4689.7KB lat=3842us
+[E4] B   multiclass XGB  seed=4 macroF1=0.8939 size=2834.7KB lat=786us
+[E4] C1  binary     DT   seed=0 macroF1=0.9505 size=7.2KB lat=119us
+[E4] C1  binary     RF   seed=0 macroF1=0.9504 size=315.3KB lat=3862us
+[E4] C1  binary     XGB  seed=0 macroF1=0.9500 size=156.5KB lat=563us
+[E4] C1  binary     DT   seed=1 macroF1=0.9508 size=7.1KB lat=120us
+[E4] C1  binary     RF   seed=1 macroF1=0.9504 size=325.4KB lat=3891us
+[E4] C1  binary     XGB  seed=1 macroF1=0.9503 size=153.7KB lat=566us
+[E4] C1  binary     DT   seed=2 macroF1=0.9518 size=7.1KB lat=121us
+[E4] C1  binary     RF   seed=2 macroF1=0.9515 size=332.8KB lat=3866us
+[E4] C1  binary     XGB  seed=2 macroF1=0.9513 size=155.2KB lat=555us
+[E4] C1  binary     DT   seed=3 macroF1=0.9498 size=7.2KB lat=120us
+[E4] C1  binary     RF   seed=3 macroF1=0.9495 size=345.3KB lat=3861us
+[E4] C1  binary     XGB  seed=3 macroF1=0.9495 size=157.0KB lat=588us
+[E4] C1  binary     DT   seed=4 macroF1=0.9496 size=7.1KB lat=120us
+[E4] C1  binary     RF   seed=4 macroF1=0.9494 size=351.1KB lat=3845us
+[E4] C1  binary     XGB  seed=4 macroF1=0.9490 size=156.9KB lat=575us
+[E4] C1  multiclass DT   seed=0 macroF1=0.7952 size=44.8KB lat=137us
+[E4] C1  multiclass RF   seed=0 macroF1=0.8147 size=2573.1KB lat=3850us
+[E4] C1  multiclass XGB  seed=0 macroF1=0.8296 size=2212.8KB lat=774us
+[E4] C1  multiclass DT   seed=1 macroF1=0.7884 size=42.0KB lat=120us
+[E4] C1  multiclass RF   seed=1 macroF1=0.8050 size=2259.7KB lat=3867us
+[E4] C1  multiclass XGB  seed=1 macroF1=0.8283 size=2232.4KB lat=778us
+[E4] C1  multiclass DT   seed=2 macroF1=0.8047 size=45.9KB lat=119us
+[E4] C1  multiclass RF   seed=2 macroF1=0.8226 size=2467.1KB lat=3848us
+[E4] C1  multiclass XGB  seed=2 macroF1=0.8390 size=2241.5KB lat=771us
+[E4] C1  multiclass DT   seed=3 macroF1=0.7941 size=45.2KB lat=120us
+[E4] C1  multiclass RF   seed=3 macroF1=0.8142 size=2438.0KB lat=3900us
+[E4] C1  multiclass XGB  seed=3 macroF1=0.8344 size=2247.9KB lat=780us
+[E4] C1  multiclass DT   seed=4 macroF1=0.7946 size=45.6KB lat=120us
+[E4] C1  multiclass RF   seed=4 macroF1=0.8161 size=2419.6KB lat=3972us
+[E4] C1  multiclass XGB  seed=4 macroF1=0.8349 size=2215.1KB lat=805us
+[E4] C2  binary     DT   seed=0 macroF1=0.7514 size=17.7KB lat=119us
+[E4] C2  binary     RF   seed=0 macroF1=0.7443 size=269.3KB lat=4085us
+[E4] C2  binary     XGB  seed=0 macroF1=0.7499 size=165.8KB lat=589us
+[E4] C2  binary     DT   seed=1 macroF1=0.7519 size=16.6KB lat=120us
+[E4] C2  binary     RF   seed=1 macroF1=0.7430 size=290.6KB lat=3976us
+[E4] C2  binary     XGB  seed=1 macroF1=0.7495 size=162.0KB lat=571us
+[E4] C2  binary     DT   seed=2 macroF1=0.7604 size=16.1KB lat=121us
+[E4] C2  binary     RF   seed=2 macroF1=0.7510 size=270.0KB lat=3980us
+[E4] C2  binary     XGB  seed=2 macroF1=0.7579 size=164.0KB lat=598us
+[E4] C2  binary     DT   seed=3 macroF1=0.7556 size=17.2KB lat=121us
+[E4] C2  binary     RF   seed=3 macroF1=0.7466 size=294.5KB lat=3883us
+[E4] C2  binary     XGB  seed=3 macroF1=0.7530 size=164.0KB lat=578us
+[E4] C2  binary     DT   seed=4 macroF1=0.7546 size=16.8KB lat=120us
+[E4] C2  binary     RF   seed=4 macroF1=0.7468 size=283.1KB lat=3880us
+[E4] C2  binary     XGB  seed=4 macroF1=0.7523 size=170.7KB lat=596us
+[E4] C2  multiclass DT   seed=0 macroF1=0.4761 size=27.2KB lat=121us
+[E4] C2  multiclass RF   seed=0 macroF1=0.4847 size=1305.8KB lat=3965us
+[E4] C2  multiclass XGB  seed=0 macroF1=0.4866 size=1934.8KB lat=792us
+[E4] C2  multiclass DT   seed=1 macroF1=0.4690 size=26.9KB lat=127us
+[E4] C2  multiclass RF   seed=1 macroF1=0.4762 size=1291.4KB lat=3867us
+[E4] C2  multiclass XGB  seed=1 macroF1=0.4773 size=1920.6KB lat=784us
+[E4] C2  multiclass DT   seed=2 macroF1=0.4695 size=26.5KB lat=119us
+[E4] C2  multiclass RF   seed=2 macroF1=0.4781 size=1365.8KB lat=3871us
+[E4] C2  multiclass XGB  seed=2 macroF1=0.4777 size=1927.4KB lat=773us
+[E4] C2  multiclass DT   seed=3 macroF1=0.4700 size=27.9KB lat=119us
+[E4] C2  multiclass RF   seed=3 macroF1=0.4786 size=1338.5KB lat=3862us
+[E4] C2  multiclass XGB  seed=3 macroF1=0.4795 size=1954.9KB lat=773us
+[E4] C2  multiclass DT   seed=4 macroF1=0.4704 size=25.8KB lat=120us
+[E4] C2  multiclass RF   seed=4 macroF1=0.4782 size=1388.1KB lat=3871us
+[E4] C2  multiclass XGB  seed=4 macroF1=0.4795 size=1949.1KB lat=762us
+[audit C2] top columns:
+         source_column  n_features  single_column_balanced_acc
+               tcp.len           1                    0.645389
+         mqtt.hdrflags           1                    0.605878
+          mqtt.msgtype           1                    0.605878
+              mqtt.len           1                    0.578980
+             tcp.flags           1                    0.570152
+     mqtt.conack.flags           5                    0.528144
+        mqtt.proto_len           1                    0.526431
+        mqtt.protoname           4                    0.526431
+         mqtt.conflags           1                    0.526431
+mqtt.conflag.cleansess           1                    0.526431
+Macro-F1 summary:
+protocol               B      C1      C2
+task       model                        
+binary     DT     0.9492  0.9505  0.7548
+           RF     0.9502  0.9502  0.7463
+           XGB    0.9497  0.9500  0.7525
+multiclass DT     0.7476  0.7954  0.4710
+           RF     0.8594  0.8145  0.4791
+           XGB    0.8922  0.8332  0.4801
+Done. Results in results_c

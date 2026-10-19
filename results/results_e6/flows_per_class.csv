@@ -1,0 +1,16 @@
+cls,flow
+Fingerprinting,138
+MITM,358
+Backdoor,564
+Ransomware,575
+XSS,1152
+Vulnerability_scanner,1165
+SQL_injection,4055
+Uploading,4516
+DDoS_HTTP,5376
+Port_Scanning,6919
+Password,7112
+DDoS_TCP,10220
+DDoS_ICMP,13081
+DDoS_UDP,14498
+Normal,15553

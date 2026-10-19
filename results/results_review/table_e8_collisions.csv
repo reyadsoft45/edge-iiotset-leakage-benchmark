@@ -1,0 +1,4 @@
+features,seed,n_features,n_test,pct_test_shared,pct_test_ambiguous,lookup_acc_on_shared,xgb_acc_all,xgb_macro_f1_all,xgb_acc_shared,xgb_acc_unshared,xgb_macro_f1_unshared
+B,1.0,63.0,30440.0,0.5672,0.0372,0.0,0.8888,0.8917,0.2447,0.8924,0.8949
+C1,1.0,59.0,30440.0,62.9665,28.9783,0.8131,0.8623,0.8323,0.812,0.948,0.8397
+C2,1.0,56.0,30440.0,98.6082,78.7911,0.5169,0.5204,0.4805,0.5153,0.8848,0.6004

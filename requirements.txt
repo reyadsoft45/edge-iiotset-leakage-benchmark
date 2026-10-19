@@ -1,0 +1,6 @@
+# Versions used for the paper results (Python 3.14.8, Windows)
+scikit-learn==1.9.1
+xgboost==3.4.1
+pandas==3.0.6
+numpy==2.5.4
+matplotlib==3.11.2

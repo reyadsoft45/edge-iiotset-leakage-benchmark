@@ -1,0 +1,293 @@
+Loaded 157800 rows x 63 columns
+Class counts:
+Attack_type
+Normal                   24301
+DDoS_UDP                 14498
+DDoS_ICMP                14090
+Ransomware               10925
+DDoS_HTTP                10561
+SQL_injection            10311
+Uploading                10269
+DDoS_TCP                 10247
+Backdoor                 10195
+Vulnerability_scanner    10076
+Port_Scanning            10071
+XSS                      10052
+Password                  9989
+MITM                      1214
+Fingerprinting            1001
+[A] matrix (152196, 74)
+[B] rows 157800 -> 152196 after dedup (5604 duplicates removed); 1134 rows share features with a different label (kept)
+[B] matrix (152196, 63)
+[audit A] top columns:
+    source_column  n_features  single_column_balanced_acc
+       mqtt.topic           3                    1.000000
+   mqtt.protoname           3                    1.000000
+mqtt.conack.flags           3                    1.000000
+ dns.qry.name.len           8                    0.999896
+          tcp.seq           1                    0.811383
+          tcp.ack           1                    0.763526
+          tcp.len           1                    0.645389
+    mqtt.hdrflags           1                    0.605878
+     mqtt.msgtype           1                    0.605878
+         mqtt.len           1                    0.578980
+[audit B] top columns:
+    source_column  n_features  single_column_balanced_acc
+          tcp.seq           1                    0.811383
+          tcp.ack           1                    0.763526
+          tcp.len           1                    0.645389
+     mqtt.msgtype           1                    0.605878
+    mqtt.hdrflags           1                    0.605878
+         mqtt.len           1                    0.578980
+        tcp.flags           1                    0.570152
+      tcp.ack_raw           1                    0.556147
+mqtt.conack.flags           5                    0.528144
+    mqtt.conflags           1                    0.526431
+[B] final feature matrix (152196, 63)
+[E1] A (recipe)    LR   seed=0 macroF1=1.0000
+[E1] A (recipe)    GNB  seed=0 macroF1=0.4944
+[E1] A (recipe)    DT   seed=0 macroF1=1.0000
+[E1] A (recipe)    RF   seed=0 macroF1=1.0000
+[E1] A (recipe)    XGB  seed=0 macroF1=1.0000
+[E1] A (recipe)    MLP  seed=0 macroF1=0.9999
+[E1] B (corrected) LR   seed=0 macroF1=0.7546
+[E1] B (corrected) GNB  seed=0 macroF1=0.4944
+[E1] B (corrected) DT   seed=0 macroF1=0.9496
+[E1] B (corrected) RF   seed=0 macroF1=0.9505
+[E1] B (corrected) XGB  seed=0 macroF1=0.9495
+[E1] B (corrected) MLP  seed=0 macroF1=0.7831
+[E1] A (recipe)    LR   seed=1 macroF1=1.0000
+[E1] A (recipe)    GNB  seed=1 macroF1=0.4979
+[E1] A (recipe)    DT   seed=1 macroF1=1.0000
+[E1] A (recipe)    RF   seed=1 macroF1=1.0000
+[E1] A (recipe)    XGB  seed=1 macroF1=1.0000
+[E1] A (recipe)    MLP  seed=1 macroF1=1.0000
+[E1] B (corrected) LR   seed=1 macroF1=0.7543
+[E1] B (corrected) GNB  seed=1 macroF1=0.4979
+[E1] B (corrected) DT   seed=1 macroF1=0.9498
+[E1] B (corrected) RF   seed=1 macroF1=0.9501
+[E1] B (corrected) XGB  seed=1 macroF1=0.9499
+[E1] B (corrected) MLP  seed=1 macroF1=0.7841
+[E1] A (recipe)    LR   seed=2 macroF1=1.0000
+[E1] A (recipe)    GNB  seed=2 macroF1=0.4850
+[E1] A (recipe)    DT   seed=2 macroF1=1.0000
+[E1] A (recipe)    RF   seed=2 macroF1=1.0000
+[E1] A (recipe)    XGB  seed=2 macroF1=1.0000
+[E1] A (recipe)    MLP  seed=2 macroF1=0.9999
+[E1] B (corrected) LR   seed=2 macroF1=0.7617
+[E1] B (corrected) GNB  seed=2 macroF1=0.4850
+[E1] B (corrected) DT   seed=2 macroF1=0.9500
+[E1] B (corrected) RF   seed=2 macroF1=0.9517
+[E1] B (corrected) XGB  seed=2 macroF1=0.9508
+[E1] B (corrected) MLP  seed=2 macroF1=0.7906
+[E1] A (recipe)    LR   seed=3 macroF1=1.0000
+[E1] A (recipe)    GNB  seed=3 macroF1=0.4905
+[E1] A (recipe)    DT   seed=3 macroF1=1.0000
+[E1] A (recipe)    RF   seed=3 macroF1=1.0000
+[E1] A (recipe)    XGB  seed=3 macroF1=1.0000
+[E1] A (recipe)    MLP  seed=3 macroF1=1.0000
+[E1] B (corrected) LR   seed=3 macroF1=0.7562
+[E1] B (corrected) GNB  seed=3 macroF1=0.4905
+[E1] B (corrected) DT   seed=3 macroF1=0.9484
+[E1] B (corrected) RF   seed=3 macroF1=0.9492
+[E1] B (corrected) XGB  seed=3 macroF1=0.9492
+[E1] B (corrected) MLP  seed=3 macroF1=0.7833
+[E1] A (recipe)    LR   seed=4 macroF1=1.0000
+[E1] A (recipe)    GNB  seed=4 macroF1=0.4894
+[E1] A (recipe)    DT   seed=4 macroF1=1.0000
+[E1] A (recipe)    RF   seed=4 macroF1=1.0000
+[E1] A (recipe)    XGB  seed=4 macroF1=1.0000
+[E1] A (recipe)    MLP  seed=4 macroF1=1.0000
+[E1] B (corrected) LR   seed=4 macroF1=0.7574
+[E1] B (corrected) GNB  seed=4 macroF1=0.4894
+[E1] B (corrected) DT   seed=4 macroF1=0.9483
+[E1] B (corrected) RF   seed=4 macroF1=0.9494
+[E1] B (corrected) XGB  seed=4 macroF1=0.9489
+[E1] B (corrected) MLP  seed=4 macroF1=0.7845
+[E2] binary     LR   seed=0 macroF1=0.7546 size=2.8KB lat=358us
+[E2] binary     GNB  seed=0 macroF1=0.4944 size=1.5KB lat=156us
+[E2] binary     DT   seed=0 macroF1=0.9496 size=18.8KB lat=122us
+[E2] binary     RF   seed=0 macroF1=0.9505 size=641.6KB lat=3996us
+[E2] binary     XGB  seed=0 macroF1=0.9495 size=195.0KB lat=603us
+[E2] binary     MLP  seed=0 macroF1=0.7831 size=82.6KB lat=366us
+[E2] binary     LR   seed=1 macroF1=0.7543 size=2.8KB lat=358us
+[E2] binary     GNB  seed=1 macroF1=0.4979 size=1.5KB lat=155us
+[E2] binary     DT   seed=1 macroF1=0.9498 size=18.8KB lat=121us
+[E2] binary     RF   seed=1 macroF1=0.9501 size=627.2KB lat=4062us
+[E2] binary     XGB  seed=1 macroF1=0.9499 size=200.2KB lat=571us
+[E2] binary     MLP  seed=1 macroF1=0.7841 size=82.4KB lat=364us
+[E2] binary     LR   seed=2 macroF1=0.7617 size=2.8KB lat=364us
+[E2] binary     GNB  seed=2 macroF1=0.4850 size=1.5KB lat=154us
+[E2] binary     DT   seed=2 macroF1=0.9500 size=20.4KB lat=120us
+[E2] binary     RF   seed=2 macroF1=0.9517 size=708.5KB lat=3896us
+[E2] binary     XGB  seed=2 macroF1=0.9508 size=198.5KB lat=570us
+[E2] binary     MLP  seed=2 macroF1=0.7906 size=82.4KB lat=366us
+[E2] binary     LR   seed=3 macroF1=0.7562 size=2.8KB lat=371us
+[E2] binary     GNB  seed=3 macroF1=0.4905 size=1.5KB lat=155us
+[E2] binary     DT   seed=3 macroF1=0.9484 size=19.6KB lat=121us
+[E2] binary     RF   seed=3 macroF1=0.9492 size=605.0KB lat=3929us
+[E2] binary     XGB  seed=3 macroF1=0.9492 size=206.2KB lat=574us
+[E2] binary     MLP  seed=3 macroF1=0.7833 size=82.7KB lat=367us
+[E2] binary     LR   seed=4 macroF1=0.7574 size=2.8KB lat=356us
+[E2] binary     GNB  seed=4 macroF1=0.4894 size=1.5KB lat=156us
+[E2] binary     DT   seed=4 macroF1=0.9483 size=17.7KB lat=121us
+[E2] binary     RF   seed=4 macroF1=0.9494 size=620.6KB lat=3949us
+[E2] binary     XGB  seed=4 macroF1=0.9489 size=201.4KB lat=572us
+[E2] binary     MLP  seed=4 macroF1=0.7845 size=82.3KB lat=369us
+[E2] multiclass LR   seed=0 macroF1=0.5579 size=6.4KB lat=341us
+[E2] multiclass GNB  seed=0 macroF1=0.3062 size=8.1KB lat=385us
+[E2] multiclass DT   seed=0 macroF1=0.7436 size=34.8KB lat=122us
+[E2] multiclass RF   seed=0 macroF1=0.8488 size=4503.2KB lat=3880us
+[E2] multiclass XGB  seed=0 macroF1=0.8880 size=2862.5KB lat=792us
+[E2] multiclass MLP  seed=0 macroF1=0.6750 size=89.0KB lat=423us
+[E2] multiclass LR   seed=1 macroF1=0.5601 size=6.4KB lat=742us
+[E2] multiclass GNB  seed=1 macroF1=0.3064 size=8.1KB lat=1054us
+[E2] multiclass DT   seed=1 macroF1=0.7473 size=33.0KB lat=268us
+[E2] multiclass RF   seed=1 macroF1=0.8584 size=4736.8KB lat=8939us
+[E2] multiclass XGB  seed=1 macroF1=0.8915 size=2841.2KB lat=1639us
+[E2] multiclass MLP  seed=1 macroF1=0.6762 size=88.6KB lat=971us
+[E2] multiclass LR   seed=2 macroF1=0.5546 size=6.4KB lat=739us
+[E2] multiclass GNB  seed=2 macroF1=0.3115 size=8.1KB lat=1054us
+[E2] multiclass DT   seed=2 macroF1=0.7515 size=34.8KB lat=266us
+[E2] multiclass RF   seed=2 macroF1=0.8652 size=4395.7KB lat=8882us
+[E2] multiclass XGB  seed=2 macroF1=0.8954 size=2866.2KB lat=1647us
+[E2] multiclass MLP  seed=2 macroF1=0.6676 size=88.0KB lat=956us
+[E2] multiclass LR   seed=3 macroF1=0.5601 size=6.4KB lat=739us
+[E2] multiclass GNB  seed=3 macroF1=0.3094 size=8.1KB lat=1043us
+[E2] multiclass DT   seed=3 macroF1=0.7462 size=33.3KB lat=265us
+[E2] multiclass RF   seed=3 macroF1=0.8623 size=4649.8KB lat=8789us
+[E2] multiclass XGB  seed=3 macroF1=0.8921 size=2875.2KB lat=1621us
+[E2] multiclass MLP  seed=3 macroF1=0.6702 size=88.7KB lat=948us
+[E2] multiclass LR   seed=4 macroF1=0.5538 size=6.4KB lat=738us
+[E2] multiclass GNB  seed=4 macroF1=0.3080 size=8.1KB lat=1044us
+[E2] multiclass DT   seed=4 macroF1=0.7494 size=34.8KB lat=266us
+[E2] multiclass RF   seed=4 macroF1=0.8622 size=4689.7KB lat=8876us
+[E2] multiclass XGB  seed=4 macroF1=0.8939 size=2834.7KB lat=1637us
+[E2] multiclass MLP  seed=4 macroF1=0.6851 size=88.6KB lat=476us
+[E3] binary     k=  3 DT   seed=0 macroF1=0.9324
+[E3] binary     k=  3 RF   seed=0 macroF1=0.9324
+[E3] binary     k=  3 XGB  seed=0 macroF1=0.9319
+[E3] binary     k=  5 DT   seed=0 macroF1=0.9501
+[E3] binary     k=  5 RF   seed=0 macroF1=0.9499
+[E3] binary     k=  5 XGB  seed=0 macroF1=0.9494
+[E3] binary     k=  8 DT   seed=0 macroF1=0.9502
+[E3] binary     k=  8 RF   seed=0 macroF1=0.9502
+[E3] binary     k=  8 XGB  seed=0 macroF1=0.9497
+[E3] binary     k= 10 DT   seed=0 macroF1=0.9500
+[E3] binary     k= 10 RF   seed=0 macroF1=0.9504
+[E3] binary     k= 10 XGB  seed=0 macroF1=0.9494
+[E3] binary     k= 15 DT   seed=0 macroF1=0.9494
+[E3] binary     k= 15 RF   seed=0 macroF1=0.9503
+[E3] binary     k= 15 XGB  seed=0 macroF1=0.9494
+[E3] binary     k= 20 DT   seed=0 macroF1=0.9495
+[E3] binary     k= 20 RF   seed=0 macroF1=0.9502
+[E3] binary     k= 20 XGB  seed=0 macroF1=0.9495
+[E3] binary     k= 63 DT   seed=0 macroF1=0.9496
+[E3] binary     k= 63 RF   seed=0 macroF1=0.9502
+[E3] binary     k= 63 XGB  seed=0 macroF1=0.9495
+[E3] binary     k=  3 DT   seed=1 macroF1=0.9310
+[E3] binary     k=  3 RF   seed=1 macroF1=0.9312
+[E3] binary     k=  3 XGB  seed=1 macroF1=0.9306
+[E3] binary     k=  5 DT   seed=1 macroF1=0.9503
+[E3] binary     k=  5 RF   seed=1 macroF1=0.9502
+[E3] binary     k=  5 XGB  seed=1 macroF1=0.9496
+[E3] binary     k=  8 DT   seed=1 macroF1=0.9504
+[E3] binary     k=  8 RF   seed=1 macroF1=0.9503
+[E3] binary     k=  8 XGB  seed=1 macroF1=0.9499
+[E3] binary     k= 10 DT   seed=1 macroF1=0.9504
+[E3] binary     k= 10 RF   seed=1 macroF1=0.9504
+[E3] binary     k= 10 XGB  seed=1 macroF1=0.9495
+[E3] binary     k= 15 DT   seed=1 macroF1=0.9500
+[E3] binary     k= 15 RF   seed=1 macroF1=0.9507
+[E3] binary     k= 15 XGB  seed=1 macroF1=0.9500
+[E3] binary     k= 20 DT   seed=1 macroF1=0.9500
+[E3] binary     k= 20 RF   seed=1 macroF1=0.9506
+[E3] binary     k= 20 XGB  seed=1 macroF1=0.9499
+[E3] binary     k= 63 DT   seed=1 macroF1=0.9500
+[E3] binary     k= 63 RF   seed=1 macroF1=0.9500
+[E3] binary     k= 63 XGB  seed=1 macroF1=0.9499
+[E3] binary     k=  3 DT   seed=2 macroF1=0.9333
+[E3] binary     k=  3 RF   seed=2 macroF1=0.9335
+[E3] binary     k=  3 XGB  seed=2 macroF1=0.9331
+[E3] binary     k=  5 DT   seed=2 macroF1=0.9511
+[E3] binary     k=  5 RF   seed=2 macroF1=0.9511
+[E3] binary     k=  5 XGB  seed=2 macroF1=0.9506
+[E3] binary     k=  8 DT   seed=2 macroF1=0.9515
+[E3] binary     k=  8 RF   seed=2 macroF1=0.9515
+[E3] binary     k=  8 XGB  seed=2 macroF1=0.9509
+[E3] binary     k= 10 DT   seed=2 macroF1=0.9516
+[E3] binary     k= 10 RF   seed=2 macroF1=0.9515
+[E3] binary     k= 10 XGB  seed=2 macroF1=0.9506
+[E3] binary     k= 15 DT   seed=2 macroF1=0.9502
+[E3] binary     k= 15 RF   seed=2 macroF1=0.9516
+[E3] binary     k= 15 XGB  seed=2 macroF1=0.9506
+[E3] binary     k= 20 DT   seed=2 macroF1=0.9501
+[E3] binary     k= 20 RF   seed=2 macroF1=0.9515
+[E3] binary     k= 20 XGB  seed=2 macroF1=0.9507
+[E3] binary     k= 63 DT   seed=2 macroF1=0.9500
+[E3] binary     k= 63 RF   seed=2 macroF1=0.9512
+[E3] binary     k= 63 XGB  seed=2 macroF1=0.9508
+[E3] multiclass k=  3 DT   seed=0 macroF1=0.6407
+[E3] multiclass k=  3 RF   seed=0 macroF1=0.6402
+[E3] multiclass k=  3 XGB  seed=0 macroF1=0.6435
+[E3] multiclass k=  5 DT   seed=0 macroF1=0.7191
+[E3] multiclass k=  5 RF   seed=0 macroF1=0.7266
+[E3] multiclass k=  5 XGB  seed=0 macroF1=0.7301
+[E3] multiclass k=  8 DT   seed=0 macroF1=0.8155
+[E3] multiclass k=  8 RF   seed=0 macroF1=0.8192
+[E3] multiclass k=  8 XGB  seed=0 macroF1=0.8328
+[E3] multiclass k= 10 DT   seed=0 macroF1=0.8153
+[E3] multiclass k= 10 RF   seed=0 macroF1=0.8187
+[E3] multiclass k= 10 XGB  seed=0 macroF1=0.8325
+[E3] multiclass k= 15 DT   seed=0 macroF1=0.7436
+[E3] multiclass k= 15 RF   seed=0 macroF1=0.8711
+[E3] multiclass k= 15 XGB  seed=0 macroF1=0.8875
+[E3] multiclass k= 20 DT   seed=0 macroF1=0.7436
+[E3] multiclass k= 20 RF   seed=0 macroF1=0.8672
+[E3] multiclass k= 20 XGB  seed=0 macroF1=0.8882
+[E3] multiclass k= 63 DT   seed=0 macroF1=0.7436
+[E3] multiclass k= 63 RF   seed=0 macroF1=0.8512
+[E3] multiclass k= 63 XGB  seed=0 macroF1=0.8882
+[E3] multiclass k=  3 DT   seed=1 macroF1=0.6405
+[E3] multiclass k=  3 RF   seed=1 macroF1=0.6434
+[E3] multiclass k=  3 XGB  seed=1 macroF1=0.6400
+[E3] multiclass k=  5 DT   seed=1 macroF1=0.6898
+[E3] multiclass k=  5 RF   seed=1 macroF1=0.6863
+[E3] multiclass k=  5 XGB  seed=1 macroF1=0.6885
+[E3] multiclass k=  8 DT   seed=1 macroF1=0.8125
+[E3] multiclass k=  8 RF   seed=1 macroF1=0.8206
+[E3] multiclass k=  8 XGB  seed=1 macroF1=0.8357
+[E3] multiclass k= 10 DT   seed=1 macroF1=0.8125
+[E3] multiclass k= 10 RF   seed=1 macroF1=0.8190
+[E3] multiclass k= 10 XGB  seed=1 macroF1=0.8337
+[E3] multiclass k= 15 DT   seed=1 macroF1=0.7472
+[E3] multiclass k= 15 RF   seed=1 macroF1=0.8745
+[E3] multiclass k= 15 XGB  seed=1 macroF1=0.8898
+[E3] multiclass k= 20 DT   seed=1 macroF1=0.7473
+[E3] multiclass k= 20 RF   seed=1 macroF1=0.8724
+[E3] multiclass k= 20 XGB  seed=1 macroF1=0.8903
+[E3] multiclass k= 63 DT   seed=1 macroF1=0.7473
+[E3] multiclass k= 63 RF   seed=1 macroF1=0.8503
+[E3] multiclass k= 63 XGB  seed=1 macroF1=0.8907
+[E3] multiclass k=  3 DT   seed=2 macroF1=0.6475
+[E3] multiclass k=  3 RF   seed=2 macroF1=0.6482
+[E3] multiclass k=  3 XGB  seed=2 macroF1=0.6497
+[E3] multiclass k=  5 DT   seed=2 macroF1=0.7754
+[E3] multiclass k=  5 RF   seed=2 macroF1=0.7746
+[E3] multiclass k=  5 XGB  seed=2 macroF1=0.7822
+[E3] multiclass k=  8 DT   seed=2 macroF1=0.7739
+[E3] multiclass k=  8 RF   seed=2 macroF1=0.7614
+[E3] multiclass k=  8 XGB  seed=2 macroF1=0.7840
+[E3] multiclass k= 10 DT   seed=2 macroF1=0.8769
+[E3] multiclass k= 10 RF   seed=2 macroF1=0.8813
+[E3] multiclass k= 10 XGB  seed=2 macroF1=0.8942
+[E3] multiclass k= 15 DT   seed=2 macroF1=0.7514
+[E3] multiclass k= 15 RF   seed=2 macroF1=0.8793
+[E3] multiclass k= 15 XGB  seed=2 macroF1=0.8960
+[E3] multiclass k= 20 DT   seed=2 macroF1=0.7515
+[E3] multiclass k= 20 RF   seed=2 macroF1=0.8702
+[E3] multiclass k= 20 XGB  seed=2 macroF1=0.8960
+[E3] multiclass k= 63 DT   seed=2 macroF1=0.7515
+[E3] multiclass k= 63 RF   seed=2 macroF1=0.8509
+[E3] multiclass k= 63 XGB  seed=2 macroF1=0.8954
+Done. Tables (CSV) and 600-dpi figures are in results_full

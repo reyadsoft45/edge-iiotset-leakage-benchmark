@@ -1,0 +1,58 @@
+{
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "grid": [
+  {
+   "max_depth": 6,
+   "balanced": false
+  },
+  {
+   "max_depth": 6,
+   "balanced": true
+  },
+  {
+   "max_depth": 10,
+   "balanced": false
+  },
+  {
+   "max_depth": 10,
+   "balanced": true
+  },
+  {
+   "max_depth": 14,
+   "balanced": false
+  },
+  {
+   "max_depth": 14,
+   "balanced": true
+  }
+ ],
+ "six_class_map": {
+  "Normal": "Normal",
+  "DDoS_UDP": "DoS/DDoS",
+  "DDoS_ICMP": "DoS/DDoS",
+  "DDoS_TCP": "DoS/DDoS",
+  "DDoS_HTTP": "DoS/DDoS",
+  "Port_Scanning": "Information gathering",
+  "Vulnerability_scanner": "Information gathering",
+  "Fingerprinting": "Information gathering",
+  "MITM": "Man-in-the-middle",
+  "XSS": "Injection",
+  "SQL_injection": "Injection",
+  "Uploading": "Injection",
+  "Backdoor": "Malware",
+  "Password": "Malware",
+  "Ransomware": "Malware"
+ },
+ "C1_drop": [
+  "tcp.checksum",
+  "icmp.checksum",
+  "udp.stream",
+  "tcp.ack_raw",
+  "mbtcp.trans_id"
+ ],
+ "flagged_leaky_columns_not_removed": []
+}

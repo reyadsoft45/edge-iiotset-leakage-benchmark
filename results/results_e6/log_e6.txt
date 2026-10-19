@@ -1,0 +1,171 @@
+[B] rows 157800 -> 152196 after dedup (5604 duplicates removed); 1134 rows share features with a different label (kept)
+[E6] 152196 packets in 76383 connection groups; 11.53% packets could not be linked (singleton groups)
+[E6] packets by grouping rule:
+tcp          119503
+singleton     17553
+other-ip      15083
+udp              38
+arp              19
+[E6] group size distribution (packets per group):
+count    76383.0
+mean         2.0
+std         33.3
+min          1.0
+50%          1.0
+90%          3.0
+99%         14.0
+max       5963.0
+[E6] flows per class:
+cls
+Fingerprinting             138
+MITM                       358
+Backdoor                   564
+Ransomware                 575
+XSS                       1152
+Vulnerability_scanner     1165
+SQL_injection             4055
+Uploading                 4516
+DDoS_HTTP                 5376
+Port_Scanning             6919
+Password                  7112
+DDoS_TCP                 10220
+DDoS_ICMP                13081
+DDoS_UDP                 14498
+Normal                   15553
+[E6] largest single flow holds 3.92% of all packets
+[E6] binary     row-level    B  DT  fold=0 acc=0.9744 macroF1=0.9490 flows_in_both=8969 missing_classes=0
+[E6] binary     row-level    B  RF  fold=0 acc=0.9749 macroF1=0.9498 flows_in_both=8969 missing_classes=0
+[E6] binary     row-level    B  XGB fold=0 acc=0.9751 macroF1=0.9501 flows_in_both=8969 missing_classes=0
+[E6] binary     row-level    C1 DT  fold=0 acc=0.9753 macroF1=0.9506 flows_in_both=8969 missing_classes=0
+[E6] binary     row-level    C1 RF  fold=0 acc=0.9751 macroF1=0.9500 flows_in_both=8969 missing_classes=0
+[E6] binary     row-level    C1 XGB fold=0 acc=0.9752 macroF1=0.9504 flows_in_both=8969 missing_classes=0
+[E6] binary     row-level    B  DT  fold=1 acc=0.9755 macroF1=0.9512 flows_in_both=9003 missing_classes=0
+[E6] binary     row-level    B  RF  fold=1 acc=0.9761 macroF1=0.9522 flows_in_both=9003 missing_classes=0
+[E6] binary     row-level    B  XGB fold=1 acc=0.9761 macroF1=0.9523 flows_in_both=9003 missing_classes=0
+[E6] binary     row-level    C1 DT  fold=1 acc=0.9762 macroF1=0.9524 flows_in_both=9003 missing_classes=0
+[E6] binary     row-level    C1 RF  fold=1 acc=0.9761 macroF1=0.9522 flows_in_both=9003 missing_classes=0
+[E6] binary     row-level    C1 XGB fold=1 acc=0.9762 macroF1=0.9524 flows_in_both=9003 missing_classes=0
+[E6] binary     row-level    B  DT  fold=2 acc=0.9743 macroF1=0.9485 flows_in_both=8999 missing_classes=0
+[E6] binary     row-level    B  RF  fold=2 acc=0.9747 macroF1=0.9491 flows_in_both=8999 missing_classes=0
+[E6] binary     row-level    B  XGB fold=2 acc=0.9746 macroF1=0.9491 flows_in_both=8999 missing_classes=0
+[E6] binary     row-level    C1 DT  fold=2 acc=0.9747 macroF1=0.9492 flows_in_both=8999 missing_classes=0
+[E6] binary     row-level    C1 RF  fold=2 acc=0.9745 macroF1=0.9487 flows_in_both=8999 missing_classes=0
+[E6] binary     row-level    C1 XGB fold=2 acc=0.9746 macroF1=0.9491 flows_in_both=8999 missing_classes=0
+[E6] binary     row-level    B  DT  fold=3 acc=0.9746 macroF1=0.9493 flows_in_both=8975 missing_classes=0
+[E6] binary     row-level    B  RF  fold=3 acc=0.9754 macroF1=0.9506 flows_in_both=8975 missing_classes=0
+[E6] binary     row-level    B  XGB fold=3 acc=0.9754 macroF1=0.9508 flows_in_both=8975 missing_classes=0
+[E6] binary     row-level    C1 DT  fold=3 acc=0.9754 macroF1=0.9508 flows_in_both=8975 missing_classes=0
+[E6] binary     row-level    C1 RF  fold=3 acc=0.9755 macroF1=0.9510 flows_in_both=8975 missing_classes=0
+[E6] binary     row-level    C1 XGB fold=3 acc=0.9756 macroF1=0.9510 flows_in_both=8975 missing_classes=0
+[E6] binary     row-level    B  DT  fold=4 acc=0.9743 macroF1=0.9487 flows_in_both=8995 missing_classes=0
+[E6] binary     row-level    B  RF  fold=4 acc=0.9748 macroF1=0.9494 flows_in_both=8995 missing_classes=0
+[E6] binary     row-level    B  XGB fold=4 acc=0.9749 macroF1=0.9496 flows_in_both=8995 missing_classes=0
+[E6] binary     row-level    C1 DT  fold=4 acc=0.9750 macroF1=0.9498 flows_in_both=8995 missing_classes=0
+[E6] binary     row-level    C1 RF  fold=4 acc=0.9750 macroF1=0.9498 flows_in_both=8995 missing_classes=0
+[E6] binary     row-level    C1 XGB fold=4 acc=0.9749 macroF1=0.9497 flows_in_both=8995 missing_classes=0
+[E6] binary     flow-grouped B  DT  fold=0 acc=0.9669 macroF1=0.9353 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  RF  fold=0 acc=0.9757 macroF1=0.9514 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  XGB fold=0 acc=0.9760 macroF1=0.9521 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 DT  fold=0 acc=0.9670 macroF1=0.9356 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 RF  fold=0 acc=0.9713 macroF1=0.9433 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 XGB fold=0 acc=0.9759 macroF1=0.9518 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  DT  fold=1 acc=0.9746 macroF1=0.9493 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  RF  fold=1 acc=0.9747 macroF1=0.9493 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  XGB fold=1 acc=0.9750 macroF1=0.9498 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 DT  fold=1 acc=0.9751 macroF1=0.9500 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 RF  fold=1 acc=0.9747 macroF1=0.9491 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 XGB fold=1 acc=0.9750 macroF1=0.9499 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  DT  fold=2 acc=0.9754 macroF1=0.9507 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  RF  fold=2 acc=0.9753 macroF1=0.9505 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  XGB fold=2 acc=0.9756 macroF1=0.9510 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 DT  fold=2 acc=0.9754 macroF1=0.9508 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 RF  fold=2 acc=0.9755 macroF1=0.9508 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 XGB fold=2 acc=0.9756 macroF1=0.9511 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  DT  fold=3 acc=0.9744 macroF1=0.9489 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  RF  fold=3 acc=0.9753 macroF1=0.9505 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  XGB fold=3 acc=0.9752 macroF1=0.9503 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 DT  fold=3 acc=0.9754 macroF1=0.9507 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 RF  fold=3 acc=0.9753 macroF1=0.9505 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 XGB fold=3 acc=0.9754 macroF1=0.9507 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  DT  fold=4 acc=0.9738 macroF1=0.9478 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  RF  fold=4 acc=0.9746 macroF1=0.9491 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped B  XGB fold=4 acc=0.9736 macroF1=0.9472 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 DT  fold=4 acc=0.9748 macroF1=0.9495 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 RF  fold=4 acc=0.9748 macroF1=0.9495 flows_in_both=0 missing_classes=0
+[E6] binary     flow-grouped C1 XGB fold=4 acc=0.9735 macroF1=0.9470 flows_in_both=0 missing_classes=0
+[E6] multiclass row-level    B  DT  fold=0 acc=0.8011 macroF1=0.7455 flows_in_both=8989 missing_classes=0
+[E6] multiclass row-level    B  RF  fold=0 acc=0.8664 macroF1=0.8681 flows_in_both=8989 missing_classes=0
+[E6] multiclass row-level    B  XGB fold=0 acc=0.8886 macroF1=0.8884 flows_in_both=8989 missing_classes=0
+[E6] multiclass row-level    C1 DT  fold=0 acc=0.8203 macroF1=0.7940 flows_in_both=8989 missing_classes=0
+[E6] multiclass row-level    C1 RF  fold=0 acc=0.8486 macroF1=0.8161 flows_in_both=8989 missing_classes=0
+[E6] multiclass row-level    C1 XGB fold=0 acc=0.8635 macroF1=0.8306 flows_in_both=8989 missing_classes=0
+[E6] multiclass row-level    B  DT  fold=1 acc=0.8025 macroF1=0.7472 flows_in_both=9058 missing_classes=0
+[E6] multiclass row-level    B  RF  fold=1 acc=0.8639 macroF1=0.8657 flows_in_both=9058 missing_classes=0
+[E6] multiclass row-level    B  XGB fold=1 acc=0.8918 macroF1=0.8942 flows_in_both=9058 missing_classes=0
+[E6] multiclass row-level    C1 DT  fold=1 acc=0.8221 macroF1=0.7964 flows_in_both=9058 missing_classes=0
+[E6] multiclass row-level    C1 RF  fold=1 acc=0.8477 macroF1=0.8154 flows_in_both=9058 missing_classes=0
+[E6] multiclass row-level    C1 XGB fold=1 acc=0.8647 macroF1=0.8327 flows_in_both=9058 missing_classes=0
+[E6] multiclass row-level    B  DT  fold=2 acc=0.8016 macroF1=0.7449 flows_in_both=9036 missing_classes=0
+[E6] multiclass row-level    B  RF  fold=2 acc=0.8540 macroF1=0.8592 flows_in_both=9036 missing_classes=0
+[E6] multiclass row-level    B  XGB fold=2 acc=0.8904 macroF1=0.8924 flows_in_both=9036 missing_classes=0
+[E6] multiclass row-level    C1 DT  fold=2 acc=0.8218 macroF1=0.7998 flows_in_both=9036 missing_classes=0
+[E6] multiclass row-level    C1 RF  fold=2 acc=0.8451 macroF1=0.8164 flows_in_both=9036 missing_classes=0
+[E6] multiclass row-level    C1 XGB fold=2 acc=0.8633 macroF1=0.8348 flows_in_both=9036 missing_classes=0
+[E6] multiclass row-level    B  DT  fold=3 acc=0.8021 macroF1=0.7456 flows_in_both=8998 missing_classes=0
+[E6] multiclass row-level    B  RF  fold=3 acc=0.8648 macroF1=0.8650 flows_in_both=8998 missing_classes=0
+[E6] multiclass row-level    B  XGB fold=3 acc=0.8909 macroF1=0.8916 flows_in_both=8998 missing_classes=0
+[E6] multiclass row-level    C1 DT  fold=3 acc=0.8205 macroF1=0.7967 flows_in_both=8998 missing_classes=0
+[E6] multiclass row-level    C1 RF  fold=3 acc=0.8476 macroF1=0.8166 flows_in_both=8998 missing_classes=0
+[E6] multiclass row-level    C1 XGB fold=3 acc=0.8647 macroF1=0.8341 flows_in_both=8998 missing_classes=0
+[E6] multiclass row-level    B  DT  fold=4 acc=0.8024 macroF1=0.7476 flows_in_both=8900 missing_classes=0
+[E6] multiclass row-level    B  RF  fold=4 acc=0.8627 macroF1=0.8647 flows_in_both=8900 missing_classes=0
+[E6] multiclass row-level    B  XGB fold=4 acc=0.8896 macroF1=0.8910 flows_in_both=8900 missing_classes=0
+[E6] multiclass row-level    C1 DT  fold=4 acc=0.8192 macroF1=0.7960 flows_in_both=8900 missing_classes=0
+[E6] multiclass row-level    C1 RF  fold=4 acc=0.8436 macroF1=0.8128 flows_in_both=8900 missing_classes=0
+[E6] multiclass row-level    C1 XGB fold=4 acc=0.8645 macroF1=0.8346 flows_in_both=8900 missing_classes=0
+[E6] multiclass flow-grouped B  DT  fold=0 acc=0.6489 macroF1=0.5745 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  RF  fold=0 acc=0.7057 macroF1=0.6968 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  XGB fold=0 acc=0.7263 macroF1=0.6952 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 DT  fold=0 acc=0.7444 macroF1=0.7027 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 RF  fold=0 acc=0.7419 macroF1=0.7199 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 XGB fold=0 acc=0.8007 macroF1=0.7525 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  DT  fold=1 acc=0.6811 macroF1=0.5770 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  RF  fold=1 acc=0.8124 macroF1=0.7232 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  XGB fold=1 acc=0.8220 macroF1=0.7581 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 DT  fold=1 acc=0.8151 macroF1=0.7355 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 RF  fold=1 acc=0.8215 macroF1=0.7346 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 XGB fold=1 acc=0.8580 macroF1=0.7673 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  DT  fold=2 acc=0.6996 macroF1=0.5913 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  RF  fold=2 acc=0.7392 macroF1=0.6915 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  XGB fold=2 acc=0.8139 macroF1=0.7473 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 DT  fold=2 acc=0.8019 macroF1=0.7285 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 RF  fold=2 acc=0.8226 macroF1=0.7426 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 XGB fold=2 acc=0.8423 macroF1=0.7602 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  DT  fold=3 acc=0.7251 macroF1=0.5724 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  RF  fold=3 acc=0.8176 macroF1=0.7247 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  XGB fold=3 acc=0.8119 macroF1=0.7073 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 DT  fold=3 acc=0.8392 macroF1=0.7338 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 RF  fold=3 acc=0.8714 macroF1=0.7628 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 XGB fold=3 acc=0.8904 macroF1=0.7766 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  DT  fold=4 acc=0.7379 macroF1=0.5598 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  RF  fold=4 acc=0.7736 macroF1=0.6458 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped B  XGB fold=4 acc=0.8230 macroF1=0.6919 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 DT  fold=4 acc=0.7701 macroF1=0.6516 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 RF  fold=4 acc=0.8015 macroF1=0.6730 flows_in_both=0 missing_classes=0
+[E6] multiclass flow-grouped C1 XGB fold=4 acc=0.8186 macroF1=0.6886 flows_in_both=0 missing_classes=0
+Macro-F1, row-level vs flow-grouped (mean over folds):
+split                      flow-grouped  row-level    drop
+task       protocol model                                 
+binary     B        DT           0.9464     0.9493  0.0029
+                    RF           0.9502     0.9502  0.0000
+                    XGB          0.9501     0.9504  0.0003
+           C1       DT           0.9473     0.9506  0.0033
+                    RF           0.9486     0.9503  0.0017
+                    XGB          0.9501     0.9505  0.0004
+multiclass B        DT           0.5750     0.7461  0.1711
+                    RF           0.6964     0.8646  0.1682
+                    XGB          0.7200     0.8915  0.1715
+           C1       DT           0.7104     0.7966  0.0862
+                    RF           0.7266     0.8155  0.0889
+                    XGB          0.7490     0.8334  0.0844
+Done. Results in results_e6
